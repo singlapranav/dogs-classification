@@ -54,8 +54,7 @@ with tab2:
         with col[1]:
             for i in conf:
                 i = i * 100
-                st.write(str(i) end = "")
-                st.write(%)
+                st.write(str(i)"%")
 
         st.write("\n")
         st.write("\n")
