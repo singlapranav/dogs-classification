@@ -53,9 +53,8 @@ with tab2:
                 st.write(res[0].names[i])
         with col[1]:
             for i in conf:
-                i = i * 100
-                st.write(str(i))
-                st.write('%')
+                i = round(i, 4) * 100
+                st.write(str(i),'%')
 
         st.write("\n")
         st.write("\n")
