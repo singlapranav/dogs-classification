@@ -53,7 +53,7 @@ with tab2:
                 st.write(res[0].names[i])
         with col[1]:
             for i in conf:
-                st.write(str(i))
+                st.write(100 * (str(i))%)
 
         st.write("\n")
         st.write("\n")
