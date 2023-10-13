@@ -1,6 +1,7 @@
 import streamlit as st
 from ultralytics import YOLO
 from PIL import Image
+import base64
 
 
 st.set_page_config(layout="wide")
@@ -12,10 +13,10 @@ def set_bg(main_bg):
     st.markdown(
          f"""
          <style>
-         .stApp {{
+         .stApp {
              background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()});
              background-size: cover
-         }}
+         }
          </style>
          """,
          unsafe_allow_html=True
