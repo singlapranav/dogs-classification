@@ -47,6 +47,8 @@ with tab1:
         with col1:
             st.subheader('App introduction', divider='rainbow')
             st.write("This is a dog breed prediction app that I have created with the help of ultralytics YOLO model training")
+        with col2:
+            st.image("download.jpg")
 
 
 
