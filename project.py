@@ -37,18 +37,18 @@ with tab1:
     st.write("\n")
 
     col1, col2 = st.columns(spec=[0.3,0.7], gap="small")
-        with col1:
-            st.subheader('My Introduction', divider='rainbow')
-            st.write("My name is Pranav Singla. I am studying in class 11th CBSE from Heritage Xperiential School Gurgaon")
-        with col2:
-            st.image("download-2.jpg")
+    with col1:
+        st.subheader('My Introduction', divider='rainbow')
+        st.write("My name is Pranav Singla. I am studying in class 11th CBSE from Heritage Xperiential School Gurgaon")
+    with col2:
+        st.image("download-2.jpg")
 
     col1, col2 = st.columns(spec=[0.3,0.7], gap="small")
-        with col1:
-            st.subheader('App introduction', divider='rainbow')
-            st.write("This is a dog breed prediction app that I have created with the help of ultralytics YOLO model training")
-        with col2:
-            st.image("download.jpg")
+    with col1:
+        st.subheader('App introduction', divider='rainbow')
+        st.write("This is a dog breed prediction app that I have created with the help of ultralytics YOLO model training")
+    with col2:
+        st.image("download.jpg")
 
 
 
